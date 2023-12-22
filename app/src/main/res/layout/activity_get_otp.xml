@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/light"
+    tools:context="com.example.myapplication.detail.GetOTP">
+
+    <ImageView
+        android:id="@+id/iv_send_msg"
+        android:layout_width="320dp"
+        android:layout_height="308dp"
+        android:src="@drawable/ic_send_msg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_get_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/coolvetica"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/txt_otp_verification"
+        android:textSize="35sp"
+        app:layout_constraintTop_toBottomOf="@id/iv_send_msg"
+        tools:layout_editor_absoluteX="53dp" />
+
+    <TextView
+        android:id="@+id/tv_info_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kami akan mengirimkan kode OTP ke nomor handphone mu"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tv_get_otp"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/tv_enter_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/teacher"
+        android:gravity="center"
+        android:text="Masukkan nomor telepon"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_info_otp"
+        app:layout_constraintVertical_bias="0.138"
+        tools:ignore="TextContrastCheck"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <EditText
+        android:id="@+id/et_no_telp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/_08xxxxxx"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_enter_number"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="Autofill,DuplicateSpeakableTextCheck,LabelFor,TextContrastCheck" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_no_telp"
+        tools:ignore="VisualLintButtonSize">
+
+        <Button
+            android:id="@+id/btn_otp_back"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_get_otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/txt_btn_get_otp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.437"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_no_telp"
+            app:layout_constraintVertical_bias="0.26"
+            tools:ignore="VisualLintButtonSize" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
