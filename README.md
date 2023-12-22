@@ -1,6 +1,7 @@
-# 📰News App
+Parentify
 
-A news app made with Kotlin in Android. [NewsAPI](https://newsapi.org/) is used for this app. In the project, the [recommended app architecture](https://developer.android.com/topic/architecture#recommended-app-arch) was preferred.
+Parentify adalah aplikasi pendamping orang tua yang menyediakan informasi dan panduan seputar parenting. Aplikasi ini dapat membantu orang tua untuk membesarkan anak dengan lebih baik, mulai dari perawatan harian, stimulasi perkembangan, hingga mengatasi masalah perilaku anak.
+
 
 ## 🛠 Tech Stack
 
@@ -14,8 +15,7 @@ A news app made with Kotlin in Android. [NewsAPI](https://newsapi.org/) is used 
 - [Retrofit](https://square.github.io/retrofit/)
 - [OkHttp](https://square.github.io/okhttp/)
 - [Picasso](https://square.github.io/picasso/)
-- Paging
 
-## Screenshots
 
-<img src="https://user-images.githubusercontent.com/46245749/166441539-f7c84f14-05c2-4634-802b-38135f73da7f.png" width="30%" height="30%"/> <img src="https://user-images.githubusercontent.com/46245749/166441674-3c405eee-de3a-4503-a0b1-c1be0d911e76.png" width="30%" height="30%"/> <img src="https://user-images.githubusercontent.com/46245749/166441636-415148d0-358c-49ba-8d73-f698fdb166d4.png" width="30%" height="30%"/> <img src="https://user-images.githubusercontent.com/46245749/166441857-845d9da5-0841-4c22-86c5-e568a37055c7.png" width="30%" height="30%"/> <img src="https://user-images.githubusercontent.com/46245749/166441925-58c3158c-7d6b-48ca-a764-71134652b9c5.png" width="30%" height="30%"/>
+file APK
+https://drive.google.com/drive/folders/1__7E82lwC4ebyt_oTEtABTxsXD8Myt3Y
